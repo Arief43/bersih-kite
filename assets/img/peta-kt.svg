@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" role="img" aria-labelledby="pt pd">
+  <title id="pt">Peta garisan Kuala Terengganu</title>
+  <desc id="pd">Peta ringkas buatan sendiri, bukan berskala. Sungai Terengganu memisahkan daerah Kuala Terengganu di selatan (diliputi) dan Kuala Nerus di utara (belum diliputi). Pulau Duyung di muara sungai dan Bukit Puteri di tebing selatan.</desc>
+  <defs>
+    <pattern id="garis" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="10" stroke="#0E3B2E" stroke-opacity=".22" stroke-width="2"/>
+    </pattern>
+    <pattern id="ombak" width="40" height="14" patternUnits="userSpaceOnUse">
+      <path d="M0 7 q10 -6 20 0 t20 0" fill="none" stroke="#1F5E7A" stroke-opacity=".35" stroke-width="1.2"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="560" fill="#F3EEE2"/>
+
+  <!-- Laut China Selatan -->
+  <path d="M330 0 C420 90 500 170 560 226 L585 244 C650 305 725 385 800 470 L800 0 Z" fill="#DCE7E6"/>
+  <path d="M330 0 C420 90 500 170 560 226 L585 244 C650 305 725 385 800 470 L800 0 Z" fill="url(#ombak)"/>
+  <path d="M330 0 C420 90 500 170 560 226 M585 244 C650 305 725 385 800 470" fill="none" stroke="#0E3B2E" stroke-width="2.5"/>
+  <text x="560" y="80" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="16" letter-spacing="3" fill="#1F5E7A">LAUT CHINA SELATAN</text>
+
+  <!-- Kuala Nerus (utara sungai): belum diliputi -->
+  <path d="M0 0 L330 0 C420 90 500 170 560 226 C520 236 480 226 430 230 C330 238 240 262 150 292 C90 312 40 318 0 322 Z" fill="url(#garis)"/>
+
+  <!-- Daerah KT (selatan sungai): diliputi -->
+  <path d="M0 352 C60 346 130 336 190 318 C280 292 360 270 440 266 C500 263 548 258 585 244 C650 305 725 385 800 470 L800 560 L0 560 Z" fill="#0E3B2E" fill-opacity=".09"/>
+  <path d="M30 352 C100 342 160 330 200 318 C280 294 360 274 440 270 C500 266 548 262 580 252 C640 310 715 390 790 476 L790 548 L30 548 Z" fill="none" stroke="#0E3B2E" stroke-width="2" stroke-dasharray="8 6"/>
+
+  <!-- Jalan utama (garisan nipis) -->
+  <g fill="none" stroke="#0E3B2E" stroke-opacity=".3" stroke-width="1.5">
+    <path d="M560 270 C520 330 480 400 430 560"/>
+    <path d="M560 270 C620 360 650 430 660 560"/>
+    <path d="M200 330 C260 380 330 420 430 430 C520 440 600 460 700 520"/>
+    <path d="M300 230 C360 160 420 100 470 40"/>
+    <path d="M100 290 C150 220 200 150 220 60"/>
+  </g>
+
+  <!-- Sungai Terengganu -->
+  <path d="M0 336 C60 332 120 322 170 306 C260 278 340 252 430 248 C490 246 530 240 572 234" fill="none" stroke="#1F5E7A" stroke-width="26" stroke-linecap="round"/>
+  <ellipse cx="470" cy="248" rx="96" ry="30" fill="#1F5E7A"/>
+  <text x="30" y="322" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="16" letter-spacing="2" fill="#1F5E7A" stroke="#F3EEE2" stroke-width="4" paint-order="stroke" transform="rotate(-6 30 322)">SUNGAI TERENGGANU</text>
+
+  <!-- Pulau Duyung -->
+  <ellipse cx="462" cy="249" rx="42" ry="12" fill="#F3EEE2" stroke="#0E3B2E" stroke-width="2"/>
+
+  <!-- Semua label: teks dengan lapik krim supaya boleh dibaca atas garisan -->
+  <g font-family="'JetBrains Mono', ui-monospace, monospace" font-size="20" font-weight="700" fill="#0E3B2E" stroke="#F3EEE2" stroke-width="5" paint-order="stroke" stroke-linejoin="round">
+    <text x="405" y="212" fill="#1F5E7A">P. DUYUNG</text>
+
+    <!-- Bukit Puteri -->
+    <path d="M548 282 l12 -20 l12 20 z" stroke="none"/>
+    <text x="578" y="262">BUKIT PUTERI</text>
+
+    <!-- Kuala Nerus -->
+    <text x="90" y="120" font-size="24" letter-spacing="3" fill-opacity=".8">KUALA NERUS</text>
+    <text x="90" y="146" font-size="16" font-weight="500" fill-opacity=".8">BELUM DILIPUTI</text>
+    <text x="272" y="206" font-weight="500">GONG BADAK</text>
+    <text x="380" y="170" font-weight="500">SEBERANG TAKIR</text>
+
+    <!-- Zon diliputi -->
+    <text x="440" y="322">BANDAR</text>
+    <text x="390" y="378">LADANG</text>
+    <text x="280" y="296">LOSONG</text>
+    <text x="170" y="364">MANIR</text>
+    <text x="300" y="452">BUKIT BESAR</text>
+    <text x="460" y="476">CHENDERING</text>
+    <text x="610" y="486">KUALA IBAI</text>
+    <text x="626" y="356">BATU BURUK</text>
+  </g>
+
+  <!-- Penanda -->
+  <g fill="#F5B700" stroke="#0E3B2E" stroke-width="2">
+    <circle cx="520" cy="300" r="8"/>
+    <circle cx="470" cy="350" r="8"/>
+    <circle cx="360" cy="300" r="8"/>
+    <circle cx="230" cy="330" r="8"/>
+    <circle cx="370" cy="420" r="8"/>
+    <circle cx="540" cy="444" r="8"/>
+    <circle cx="690" cy="452" r="8"/>
+    <circle cx="610" cy="350" r="8"/>
+  </g>
+  <g fill="none" stroke="#0E3B2E" stroke-width="2">
+    <circle cx="260" cy="200" r="7"/>
+    <circle cx="440" cy="195" r="7"/>
+  </g>
+
+  <!-- Legenda -->
+  <g font-family="'JetBrains Mono', ui-monospace, monospace" font-size="18" fill="#0E3B2E">
+    <rect x="20" y="390" width="260" height="150" fill="#F3EEE2" stroke="#0E3B2E" stroke-width="2"/>
+    <text x="36" y="420" font-weight="700" letter-spacing="2">LEGENDA</text>
+    <circle cx="46" cy="447" r="8" fill="#F5B700" stroke="#0E3B2E" stroke-width="2"/><text x="66" y="453">Diliputi</text>
+    <rect x="36" y="470" width="20" height="16" fill="url(#garis)" stroke="#0E3B2E"/><text x="66" y="485">Belum diliputi</text>
+    <path d="M36 514 h20" stroke="#0E3B2E" stroke-width="2" stroke-dasharray="5 3"/><text x="66" y="520">Sempadan servis</text>
+  </g>
+  <text x="780" y="548" text-anchor="end" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="14" fill="#0E3B2E" fill-opacity=".7">Lakaran, bukan berskala</text>
+</svg>

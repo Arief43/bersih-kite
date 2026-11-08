@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" stroke="#0E3B2E" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true">
+  <!-- bumbung ala rumah Terengganu, tebar layar -->
+  <path d="M4 22 L24 7 L44 22"/>
+  <path d="M20 10 L24 4 L28 10"/>
+  <path d="M9 19 v22 h30 v-22"/>
+  <path d="M20 41 v-11 h8 v11"/>
+  <path d="M13 26 h4 v4 h-4z M31 26 h4 v4 h-4z"/>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="pkt pkd">
+  <title id="pkt">Peta ringkas Kuala Terengganu (mobile)</title>
+  <desc id="pkd">Sungai Terengganu memisahkan Kuala Nerus di utara (belum diliputi) dan daerah Kuala Terengganu di selatan (diliputi).</desc>
+  <defs>
+    <pattern id="garis-k" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="10" stroke="#0E3B2E" stroke-opacity=".22" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <rect width="400" height="400" fill="#F3EEE2"/>
+  <!-- laut -->
+  <path d="M220 0 C260 50 290 110 310 160 L322 176 C345 240 372 300 400 360 L400 0 Z" fill="#DCE7E6"/>
+  <path d="M220 0 C260 50 290 110 310 160 M322 176 C345 240 372 300 400 360" fill="none" stroke="#0E3B2E" stroke-width="2.5"/>
+  <!-- Kuala Nerus -->
+  <path d="M0 0 L220 0 C260 50 290 110 310 160 C250 168 180 172 120 186 C70 198 30 204 0 206 Z" fill="url(#garis-k)"/>
+  <!-- Daerah KT -->
+  <path d="M0 236 C60 230 130 214 200 204 C260 198 300 192 322 176 C345 240 372 300 400 360 L400 400 L0 400 Z" fill="#0E3B2E" fill-opacity=".09"/>
+  <!-- sungai -->
+  <path d="M0 222 C70 216 140 196 210 188 C260 184 290 178 316 168" fill="none" stroke="#1F5E7A" stroke-width="22" stroke-linecap="round"/>
+  <ellipse cx="262" cy="182" rx="22" ry="7" fill="#F3EEE2" stroke="#0E3B2E" stroke-width="1.5"/>
+  <!-- label besar -->
+  <g font-family="'JetBrains Mono', ui-monospace, monospace" font-weight="700" fill="#0E3B2E">
+    <text x="24" y="90" font-size="26">KUALA NERUS</text>
+    <text x="24" y="122" font-size="20" fill-opacity=".75">BELUM</text>
+    <text x="24" y="292" font-size="26">KUALA</text>
+    <text x="24" y="322" font-size="26">TERENGGANU</text>
+    <rect x="24" y="338" width="132" height="32" rx="3" fill="#F5B700"/>
+    <text x="34" y="361" font-size="20">DILIPUTI</text>
+  </g>
+  <circle cx="290" cy="240" r="8" fill="#F5B700" stroke="#0E3B2E" stroke-width="2"/>
+  <circle cx="250" cy="290" r="8" fill="#F5B700" stroke="#0E3B2E" stroke-width="2"/>
+  <circle cx="330" cy="300" r="8" fill="#F5B700" stroke="#0E3B2E" stroke-width="2"/>
+  <circle cx="200" cy="250" r="8" fill="#F5B700" stroke="#0E3B2E" stroke-width="2"/>
+</svg>
